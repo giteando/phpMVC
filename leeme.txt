@@ -1,4 +1,1 @@
-me atasco a mitad de la prueba en BusquedaController en la consulta 
-$this->ClienteMapper->isValidClient($_POST["dni"])
-no encontré el motivo porque no funciona.
-Lamento no haber estado a la altura, disculpad las molestias.
+Construyendo backend MVC
