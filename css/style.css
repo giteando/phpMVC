@@ -1,0 +1,52 @@
+@keyframes backgroundflash {    
+    75% { opacity:1.0}
+    100% {opacity:0.0; display:none}
+}
+
+html {
+    background: url(/abp/view/img/background.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+	  font-family: Impact,"Times New Roman", Times;
+}
+
+header {
+	text-align: center;
+	font-size: 2em;
+}
+
+footer{
+	float:center;
+}
+span{
+	margin-left:4em;
+	
+}
+.pinchoAvalorar,h2,h3,nav{
+	text-align: center;
+}
+h2{
+	font-size: 1.4em;
+	font-weight: 1.2em;
+}
+#entrada {
+
+	font-size: 1.6em;
+}
+
+#entrada a{
+	margin:4em;
+	
+}
+
+
+#flash {
+  background-color:green;
+  animation: backgroundflash 5s forwards; 
+}
+
